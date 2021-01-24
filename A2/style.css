@@ -1,0 +1,32 @@
+body {
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color: #fff;
+
+}/*Navbar*/
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #000;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar li {
+    list-style-type: none;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 0px 25px 0px 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.mobile-icon {
+    display: none;
+}
