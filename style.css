@@ -1,0 +1,1149 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'SF Pro Text', sans-serif;
+}
+
+/*navbar*/
+nav {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  margin: auto;
+}
+
+nav li {
+  list-style: none;
+  display: flex;
+  margin: auto 16px;
+}
+
+nav a {
+  color: #f5f5f7;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+nav img {
+  width: 18px;
+}
+
+nav a:hover {
+  opacity: 1;
+  transition: 1s;
+}
+
+.mobnav {
+  display: none;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+header {
+  background-color: #f5f5f7;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 12px;
+}
+
+header a {
+  color: #06c;
+  text-decoration: none;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+header a i {
+  font-size: 10px;
+}
+
+header .sfoot {
+  cursor: pointer;
+}
+
+.hero {
+  background-image: url(img/index_img/holiday20_largetall_2x.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0 0 12px 0;
+}
+
+.hero img {
+  height: 88px;
+  margin: 30px auto;
+}
+
+.hero h1 {
+  margin: 5px;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.hero a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #06c;
+}
+
+.hero a i {
+  font-size: 12px;
+  margin: 0 8px;
+}
+
+.iphone12 {
+  display: flex;
+  height: 736px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-image: url(img/index_img/iphone_12__ejhnn79bn1me_largetall_2x.jpg);
+  background-position: center;
+  background-size: cover;
+  margin: 0 0 13px 0;
+}
+
+.iphone12pro {
+  display: flex;
+  height: 736px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-image: url(img/index_img/iphone_12_pro__f7ri3g4x75m6_largetall_2x.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.iphone12 h1 {
+  font-size: 56px;
+  text-align: center;
+  margin: 15px auto 0 auto;
+  font-weight: 500;
+}
+
+.iphone12pro h1, .iphone12pro p {
+  color: white;
+}
+
+.iphone12 p {
+  margin: 3px;
+  font-size: 28px;
+  font-weight: 350;
+  text-align: center;
+}
+
+.iphone12 .poi {
+  margin: 16px;
+}
+
+.iphone12 a {
+  font-size: 20px;
+  text-decoration: none;
+  margin: 0 16px;
+  color: #06c;
+}
+
+.iphone12 a:hover {
+  text-decoration: underline;
+}
+
+.iphone12 a i {
+  font-size: 0.7em;
+  margin: 0 0.5em;
+}
+
+.conll {
+  display: flex;
+  justify-content: space-between;
+}
+
+.div {
+  height: 580px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: ;
+  text-align: center;
+}
+
+.div a {
+  color: #06c;
+  text-decoration: none;
+}
+
+.div a i {
+  font-size: 12px;
+  margin: 0 8px;
+}
+
+.appro {
+  background-image: url(img/index_img/airpods_pro/airpod_tile_large_2x.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.ipad h1, .apmax h1 {
+  font-size: 40px;
+  margin: 15px auto 0 auto;
+}
+
+.appro h1 {
+  font-size: 40px;
+  margin: 15px 40px;
+}
+
+.appro sup {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.awatch {
+  background-image: url(img/index_img/watch/tile__cauwwcyyn9hy_large_2x.jpg);
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: black;
+}
+
+.awatch img {
+  width: 25%;
+  margin: 32px auto 8px auto;
+}
+
+.awatch p,
+.appro p {
+  font-size: 25px;
+  color: #f5f5f7;
+  margin: 8px auto;
+}
+
+.ipad {
+  background-image: url(img/index_img/ipad/tile__cauwwcyyn9hy_large_2x.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.ipad p {
+  font-size: 25px;
+  margin: 8px;
+}
+
+.apmax {
+  background-image: url(img/index_img/airpods_max/tile_airpods_max__1fye83e0lle6_large_2x.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.aone {
+  background-image: url(img/index_img/one/tile__cauwwcyyn9hy_large_2x.jpg);
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #fbfbfd;
+}
+
+.aone img {
+  width: 15%;
+  margin: 30px auto 8px auto;
+}
+
+.aone p {
+  font-size: 20px;
+}
+
+.aone p:first-child {
+  margin: 15px auto 0 auto;
+}
+
+.aone p:last-child {
+  margin: 0 auto 8px auto;
+}
+
+.aone .poi img {
+  width: 10px;
+  color: white;
+}
+
+.atv {
+  background-image: url(img/index_img/tv/tile__cauwwcyyn9hy_large_2x.jpg);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: flex-end;
+  color: white;
+  padding: 32px;
+}
+
+.atv img {
+  width: 10%;
+}
+
+.atv a {
+  color: white;
+}
+
+.atv .poi img {
+  color: white;
+}
+
+.atv p {
+  font-size: 20px;
+  color: #f5f5f7;
+  margin: 8px 95px;
+}
+
+footer {
+  background-color: #f5f5f7;
+}
+
+.footcon {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.footerterms {
+  padding: 15px 15px 0 15px;
+}
+
+.fterms p {
+  margin: 0 auto 1em auto;
+  font-size: 0.8em;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.fterms a {
+  color: black;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.fterms a:hover {
+  text-decoration: underline;
+}
+
+.fterms hr {
+  opacity: 0.5;
+}
+
+.con {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.con li {
+  font-size: 12px;
+  list-style: none;
+  margin: 12px auto;
+}
+
+.con a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.con a:hover {
+  transition: 1s;
+  text-decoration: underline;
+}
+
+.concolumbs {
+  margin: 15px;
+}
+
+.columbsmobile {
+  display: none;
+}
+
+.concolumb {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.linkacc, .linkedu, .linkhealth {
+  margin-top: 30px;
+}
+
+.footer {
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.footsect {
+  margin: auto;
+}
+
+.footsect a {
+  color: #06c;
+  text-decoration: none;
+}
+
+.footsect a:hover {
+  text-decoration: underline;
+}
+
+.footsect p {
+  padding: 15px;
+}
+
+.footsect hr {
+  opacity: 0.5;
+  margin: 0 15px;
+}
+
+.footrop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.spore {
+  display: none;
+}
+
+.footlink ul {
+  display: flex;
+  align-items: flex-start;
+}
+
+.footlink li {
+  font-size: 12px;
+  font-weight: bold;
+  list-style: none;
+  margin: auto 15px;
+  padding: 0 15px;
+  border-right: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.footlink li:last-child {
+  border-right: none;
+}
+
+.footlink a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.footlink a:hover {
+  transition: 1s;
+  text-decoration: underline;
+}
+
+.emain {
+  height: 450px;
+}
+
+.emain h1, .emain a {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+
+.emain h1 {
+  margin: 80px auto auto auto;
+  font-size: 30px;
+}
+
+.searchbar {
+  max-width: 360px;
+  border-style: ridge;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 30px auto;
+}
+
+.searchbar i {
+  opacity: 50%;
+  margin: 16px;
+}
+
+input {
+  width: 100%;
+  height: 45px;
+  border: none;
+  font-size: 16px;
+}
+
+.emain a {
+  color: #06c;
+}
+
+.emain a:hover {
+  text-decoration: underline;
+}
+
+.emain a i {
+  margin: 0 0 0 16px;
+}
+
+.footerterms {
+  display: flex;
+  align-items: center;
+}
+
+.macnavlist {
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  height: 100px;
+  padding: 30px 160px;
+}
+
+.macnav li {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+}
+
+.macnav a {
+  color: white;
+  text-decoration: none;
+}
+
+.macnav a:hover {
+  text-decoration: underline;
+}
+
+.new {
+  font-size: 10px;
+  color: #df5a07;
+}
+
+.fut {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #eff1ff;
+  height: 500px;
+  text-align: center;
+}
+
+.fut h1 {
+  font-size: 60px;
+}
+
+.fut a {
+  color: #06c;
+  text-decoration: none;
+}
+
+.fut a:hover {
+  text-decoration: underline;
+}
+
+.mair {
+  background-image: url(img/mac_img/macbook_air__bfz9o93hnyuq_large_2x.jpg);
+  background-position: right;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.pro13 {
+  background-image: url(img/mac_img/macbook_pro_13__ft1pc3lqwd6y_large_2x.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.mini {
+  background-image: url(img/mac_img/mac_mini__gc148mlvnziq_large_2x.jpg);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.airt {
+  display: flex;
+  flex-direction: column;
+}
+
+.sac .new {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.sac h1 {
+  font-size: 50px;
+  color: #f4f3f5;
+}
+
+.sac h2 {
+  font-size: 25px;
+  color: #f4f3f5;
+  margin: 16px 0;
+}
+
+.sac h3 {
+  font-size: 16px;
+  font-weight: 300;
+  color: #f4f3f5;
+}
+
+.sac a {
+  color: #06c;
+  text-decoration: none;
+}
+
+.sac a:hover {
+  text-decoration: underline;
+}
+
+.sac button {
+  background-color: #06c;
+  color: #f4f3f5;
+  border-radius: 24px;
+  width: 80px;
+  height: 40px;
+  margin: 16px 0;
+}
+
+.supmain {
+  background-image: url(img/support_img/hero-banner-baker-homepage.image.small_2x.jpg);
+  background-position: top;
+  background-size: cover;
+  height: 525px;
+}
+
+.suphero {
+  padding: 80px;
+}
+
+.supmain h1 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 40px;
+}
+
+.searchbarsup {
+  max-width: 600px;
+  border-style: ridge;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 30px auto;
+  background-color: white;
+}
+
+.searchbarsup i {
+  opacity: 50%;
+  margin: 16px;
+}
+
+input {
+  width: 100%;
+  height: 45px;
+  border: none;
+  font-size: 16px;
+}
+
+.supli {
+  display: flex;
+  justify-content: center;
+  margin: 30px auto 30px auto;
+}
+
+.supser {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.supserli {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+
+.supli li, .supserli li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 16px;
+}
+
+.supli li img {
+  width: 50%;
+}
+
+.supserli li img {
+  width: 50px;
+}
+
+.supli li a, .supserli li a {
+  margin: 30px;
+  text-decoration: none;
+  color: black;
+}
+
+.supserli li a {
+  margin: 15px;
+  text-decoration: none;
+  color: #06c;
+  text-align: center;
+}
+
+.supli li a:hover, .supserli li a:hover {
+  text-decoration: underline;
+}
+
+.supserli li:not(:last-child) {
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.giftc {
+  display: flex;
+  justify-content: center;
+  margin: 64px;
+}
+
+.giftc h1 {
+  font-size: 30px;
+}
+
+.giftc p {
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.giftc a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #06c;
+}
+
+.giftc a:hover {
+  text-decoration: underline;
+}
+
+.giftc img {
+  height: 200px;
+  margin: 0 15px;
+}
+
+.giftt {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.gsup {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url(img/support_img/psp-hero-banner-getsupport.image.large_2x.jpg);
+  background-position: top;
+  background-size: cover;
+  height: 500px;
+}
+
+.gsup h1 {
+  font-size: 30px;
+  font-weight: 500;
+  color: #f3f3f5;
+}
+
+.gsup p {
+  font-size: 15px;
+  color: #f3f3f5;
+  margin: 15px 0;
+}
+
+.gsup a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #06c;
+}
+
+.gsup img {
+  height: 200px;
+  margin: 0 30px;
+}
+
+.acare {
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 65px;
+}
+
+.acare h1 {
+  font-size: 30px;
+}
+
+.acare p {
+  font-size: 15px;
+}
+
+.acare a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #06c;
+}
+
+.acare img {
+  height: 200px;
+  margin: 0 30px;
+}
+
+.acaret {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.wararep {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 65px;
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.wararep h1 {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.wararep p {
+  font-size: 15px;
+  font-weight: 400;
+  margin: 15px;
+  line-height: 18px;
+}
+
+.wararep a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #06c;
+}
+
+.wararep img {
+  width: 30%;
+  margin: 0 30px;
+}
+
+.coufet {
+  text-align: center;
+  margin: 30px auto 40px auto;
+}
+
+.coufet h1 {
+  margin: 16px;
+  font-weight: 400;
+}
+
+.coufet p {
+  margin: 16px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.coufet a {
+  text-decoration: none;
+  color: #06c;
+}
+
+.coufet a:hover {
+  text-decoration: underline;
+}
+
+.giftcs {
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 60px;
+}
+
+.giftcs h1 {
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.giftcst a {
+  font-size: 16px;
+  text-decoration: none;
+  color: #06c;
+  padding: 16px 0;
+}
+
+.giftcs a:hover {
+  text-decoration: underline;
+}
+
+.giftcs img {
+  width: 15%;
+  margin: 0 30px;
+}
+
+.serpro {
+  display: flex;
+  justify-content: space-around;
+  padding: 48px;
+}
+
+.serprot li {
+  list-style: none;
+  margin: 15px;
+}
+
+.serprot li b {
+  font-size: 20px;
+}
+
+.serprot a {
+  text-decoration: none;
+  color: #06c;
+}
+
+/*media*/
+@media screen and (max-width:768px) {
+
+  /*navbar resize*/
+  .desktop {
+    display: none;
+  }
+
+  .mobnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .mobnav li {
+    margin: 0 15px;
+  }
+}
+
+@media screen and (max-width:700px) {
+  header p {
+    margin: auto 60px;
+  }
+
+  .hero {
+    background-image: url(img/index_img/holiday20_small_2x.jpg);
+    height: 500px;
+  }
+
+  .hero img {
+    height: 56px;
+    margin: 30px auto 0 auto;
+  }
+
+  .hero h1 {
+    margin: 8px 30px;
+    font-size: 30px;
+  }
+
+  .iphone12 {
+    background-image: url(img/index_img/iphone_12__ejhnn79bn1me_small_2x.jpg);
+    height: 500px;
+  }
+
+  .iphone12 h1 {
+    font-size: 25px;
+  }
+
+  .iphone12 p {
+    font-size: 20px;
+  }
+
+  .iphone12 a {
+    font-size: 20px;
+  }
+
+  .iphone12pro {
+    background-image: url(img/index_img/iphone_12_pro__f7ri3g4x75m6_small_2x.jpg);
+    height: 500px;
+  }
+
+  .iphone12pro h1 {
+    font-size: 30px;
+  }
+
+  .iphone12pro p {
+    font-size: 20px;
+  }
+
+  .iphone12pro a {
+    font-size: 20px;
+  }
+
+  .coull {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .div {
+    margin: 8px 0;
+    width: 100%;
+  }
+
+  .appro {
+    background-image: url(img/index_img/airpods_pro/airpod_tile_small_2x.jpg);
+    height: 500px;
+  }
+
+  .appro h1 {
+    font-size: 30px;
+    font-weight: 500;
+    margin: 8px;
+  }
+
+  .awatch {
+    background-image: url(img/index_img/watch/tile__cauwwcyyn9hy_small_2x.jpg);
+    height: 500px;
+  }
+
+  .awatch p {
+    font-size: 1.2em;
+  }
+
+  .ipad {
+    background-image: url(img/index_img/ipad/tile__cauwwcyyn9hy_small_2x.jpg);
+    height: 500px;
+  }
+
+  .ipad h1 {
+    font-size: 30px;
+    margin: 0.5em auto 0 auto;
+  }
+
+  .ipad p {
+    font-size: 15px;
+  }
+
+  .apmax {
+    background-image: url(img/index_img/airpods_max/tile_airpods_max__1fye83e0lle6_small_2x.jpg);
+    height: 500px;
+  }
+
+  .aone {
+    height: 500px;
+  }
+
+  .atv {
+    background-image: url(img/index_img/tv/tile__cauwwcyyn9hy_small_2x.jpg);
+    height: 500px;
+  }
+
+  .atv img {
+    width: 15%;
+  }
+
+  .atv p {
+    font-size: 15px;
+    margin: 8px 52px;
+  }
+
+  .footerterms p {
+    width: 100%;
+    font-size: 10px;
+    font-weight: 500;
+  }
+
+  .foot {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footcon {
+    width: 100%;
+  }
+
+  .concolumbs {
+    display: none;
+  }
+
+  .columbsmobile {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 16px auto;
+  }
+
+  .columbsmobile hr {
+    opacity: 0.5;
+  }
+
+  .columbsmobile li {
+    width: 456px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .columbsmobile li p {
+    margin-right: 16px;
+  }
+
+  .footsect {
+    width: 100%;
+  }
+
+  .footsect hr {
+    display: none;
+  }
+
+  .footerlinks {
+    align-items: flex-start;
+    font-size: 15px;
+  }
+
+  .footerlink li {
+    padding: 0 16px 16px 8px;
+    margin: 16px;
+  }
+
+  .spore {
+    display: flex;
+  }
+}
